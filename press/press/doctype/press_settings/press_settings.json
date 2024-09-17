@@ -89,10 +89,12 @@
   "auto_update_queue_size",
   "remote_files_section",
   "remote_uploads_bucket",
-  "remote_link_expiry",
+  "remote_uploads_region",
+  "remote_uploads_endpoint",
   "column_break_51",
   "remote_access_key_id",
   "remote_secret_access_key",
+  "remote_link_expiry",
   "product_documentation_section",
   "publish_docs",
   "storage_and_disk_limits_section",
@@ -1239,11 +1241,21 @@
    "fieldname": "hetzner_api_token",
    "fieldtype": "Password",
    "label": "Hetzner API Token"
+  },
+  {
+   "fieldname": "remote_uploads_region",
+   "fieldtype": "Data",
+   "label": "Uploads Bucket Region"
+  },
+  {
+   "fieldname": "remote_uploads_endpoint",
+   "fieldtype": "Data",
+   "label": "Uploads Bucket Endpoint"
   }
  ],
  "issingle": 1,
  "links": [],
- "modified": "2024-09-14 12:17:01.074877",
+ "modified": "2024-10-17 18:00:15.320354",
  "modified_by": "Administrator",
  "module": "Press",
  "name": "Press Settings",
